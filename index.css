@@ -1,0 +1,132 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: 'Rubik', sans-serif;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  background-image: url("fond.png");
+  background-size: cover;
+  background-position: center;
+  color: #FFF;
+  width: 100%;
+  text-shadow: 1.2px 1.2px 5px rgba(0,0,0,1);
+}
+
+a {
+  text-decoration: none;
+  border: none;
+  color: inherit;
+}
+
+a:focus {
+  text-decoration: none;
+  border: none;
+  color: inherit;
+}
+
+a:visited {
+  text-decoration: none;
+  border: none;
+  color: inherit;
+}
+
+#logo img {
+  margin: 5px, 15px, 5px, 15px;
+  width: 130px;
+  height: 130px;
+}
+
+#title {
+  margin: 0px 30px 0px 30px;
+  margin-left: 0px;
+  font-size: 30px;
+  text-align: center;
+}
+
+#links {
+  font-size: 25px;
+  flex-basis: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#links a {
+  margin-left: 10px;
+  text-decoration: none;
+  color: #FFF;
+}
+
+#content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#content * {
+  width: 85%;
+  text-align: center;
+  margin: 20px auto;
+  font-size: 25px;
+}
+
+
+#read {
+  text-decoration: underline;
+  margin-bottom: 150px;
+}
+
+#planP {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+#planP .parTitle {
+  width: calc(100%/5);
+}
+
+@media (max-width: 950px) {
+  #planP .parTitle {
+    width: 100%!important;
+  }
+  header {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  #logo {
+    display: none;
+  }
+}
+
+.tit {
+  font-size: 35px!important;
+  margin-bottom: 10px;
+  width: 100%!important;
+}
+
+
+
+
+footer {
+  width: 100%;
+  color: #666699;
+  font-size: 15px;
+  text-align: center;
+}
+
+br {
+  margin: 0px;
+}
+
+hr {
+  color: #666699;
+
+  width: 75%;
+  margin: 10px auto;
+}
